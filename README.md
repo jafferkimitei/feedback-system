@@ -23,3 +23,21 @@ A full-stack feedback collection system built with **Node.js**, **Express.js**, 
 ```bash
 git clone https://github.com/jafferkimitei/feedback-system.git
 cd feedback-system
+npm install
+Create a .env file in root
+add MONGODB_URI=your_mongodb_connection_string_here
+
+npm start
+```
+## 💡 Get a MongoDB URI
+- Create an account on MongoDB Atlas
+- Create a cluster and database
+- Click “Connect” → “Connect your application”
+- Copy the URI and paste it into your .env file 
+
+## 🙌 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+---
+
+Let me know if you want it personalized with your GitHub username or project name!
+
